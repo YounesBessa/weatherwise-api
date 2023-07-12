@@ -71,6 +71,8 @@ module.exports.userRegister = async (req, res, next)=>{
 
 module.exports.userLogin = async (req, res, next)=>{
 
+  
+
     const {email, password} = req.body;
 
     if(!email){
